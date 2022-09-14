@@ -28,6 +28,7 @@ export const LoginComponent = () => {
           <div className="text-center">
             <h1 className="text-5xl font-bold w-80">Login</h1>
           </div>
+
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine">
             <div className="card-body">
               <div className="form-control">
@@ -47,7 +48,7 @@ export const LoginComponent = () => {
               <div className="flex flex-row justify-between font-semibold italic">
                 <span />
                 <Link href="/register">
-                  <label className="label label-text-alt link link-hover text-md">Register</label>
+                  <label className="label label-text-alt link link-hover text-base underline hover:decoration-emerald-500 hover:line-through">Register</label>
                 </Link>
               </div>
 

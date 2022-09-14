@@ -57,7 +57,7 @@ export const RegisterComponent = () => {
 
               <div className="flex flex-row justify-between font-semibold italic">
                 <Link href="/">
-                  <label className="label label-text-alt link link-hover text-md">Login</label>
+                  <label className="label label-text-alt link link-hover text-base underline hover:decoration-emerald-500 hover:line-through">Login</label>
                 </Link>
               </div>
 

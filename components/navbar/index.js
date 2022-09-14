@@ -22,14 +22,18 @@ export const NavbarComponent = () => {
               </svg>
             </label>
           </div>
+
           <DashboardModalComponent />
+
         </div>
         <div className="navbar-center hidden lg:flex"></div>
+
         <div className="navbar-end">
           <button className="btn btn-secondary" onClick={handleLogout}>
             Logout
           </button>
         </div>
+        
       </div>
       <div className="divider">Product List</div>
     </div>

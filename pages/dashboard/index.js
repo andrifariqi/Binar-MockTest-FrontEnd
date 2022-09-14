@@ -1,14 +1,14 @@
-// import { useEffect } from "react";
-// import { protectedRoute } from "../../middleware";
+import { useEffect } from "react";
+import { protectedRoute } from "../../middleware";
 import { hasToken } from "../../util";
 
 import { NavbarComponent } from "../../components/navbar";
 import { DashboardComponent } from "../../components/dashboard";
 
 export const Dashboard = () => {
-  // useEffect(() => {
-  //   protectedRoute();
-  // }, []);
+  useEffect(() => {
+    protectedRoute();
+  }, []);
 
   hasToken();
 

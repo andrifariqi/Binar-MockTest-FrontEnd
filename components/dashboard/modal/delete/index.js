@@ -13,17 +13,22 @@ export const DashboardModalDeleteComponent = (props) => {
   return (
     <div>
       <label htmlFor={id} className="btn btn-error btn-sm">
-        Delete Item
+        Delete
       </label>
+
       <input type="checkbox" id={id} className="modal-toggle" />
+
       <div className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <h3 className="font-bold text-lg mb-3">Delete Item</h3>
+
           <p>Are you sure want to delete "{props.name}"</p>
+
           <div className="modal-action">
             <button className="btn btn-error" onClick={handleSubmit}>
               Submit
             </button>
+
             <label htmlFor={id} className="btn">
               Cancel
             </label>

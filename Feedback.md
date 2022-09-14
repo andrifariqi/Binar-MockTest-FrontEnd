@@ -1,0 +1,3 @@
+- Saran untuk instalasi CORS di backend supaya memudahkan ketika request method put, delete
+- Untuk method http create biasanya memakai response code 201
+- Kalau boleh ditambahkan untuk mendapatkan response berhasil dan error dari backend supaya bisa di tampilkan pada frontend
